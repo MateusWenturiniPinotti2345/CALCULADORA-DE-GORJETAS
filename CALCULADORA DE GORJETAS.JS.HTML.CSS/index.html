@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULADORA DE GORJETAS</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <div>
+    <h1>CALCULADORA DE GORJETAS</h1>
+  </div>
+
+  <div>
+    <form>
+
+      <label for="bill">
+        <p>QUANTO QUE FICOU A CONTA?</p>
+      </label>
+
+      <p>
+        R$<input type="number" placeholder="100" id="bill">
+      </p>
+
+      <label for="quality">
+        <p>O QUE ACHOU DA QUALIDADE DO SERVIÇO?</p>
+      </label>
+
+      <p>
+        <select name="quality" id="quality">
+          <option disabled selected> --ISIRA A QUALIDADE DO SERVIÇO </option>
+          <option value="0.30">30% - INCRÍVEL</option>
+          <option value="0.20">20% - BOM</option>
+          <option value="0.15">15% - ACEITÁVEL</option>
+          <option value="0.10">10% - RUIM</option>
+          <option value="0.05">5% - PÉSSIMO</option>
+        </select>
+      </p>
+
+      <label for="people">
+        <p>QUANTAS PESSOAS VÃO DIVIDIR A CONTA?</p>
+      </label>
+
+      <p>
+        <input type="number" placeholder="1" name="people "id="people"> PESSOA(S)
+      </p>
+
+      <button type="submit">CALCULAR</button>
+     
+      <p>
+        <label for="result">A GORJETA É IGUAl A: </label>
+      </p>
+
+    </form>
+   
+  </div>
+ 
+</body>
+</html>
